@@ -1,0 +1,38 @@
+.state-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f82b2b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+    /* Optional: Add box shadow for a raised effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Optional: Add hover and active styles */
+    &:hover {
+        background-color: #8f1a1a;
+    }
+
+    &:active {
+        background-color: #490c0c;
+    }
+}
+
+.state-btn.running {
+    background-color: #007bff;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+
+    &:active {
+        background-color: #003e80;
+    }
+}

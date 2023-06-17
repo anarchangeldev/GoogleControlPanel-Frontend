@@ -1,0 +1,37 @@
+.instance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .instance.odd {
+    background-color: #eeeeee;
+  }
+  
+  .vm-text-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .vm-name {
+    padding-left: 30px;
+    width: 300px;
+    max-width: 300px;
+    text-align: right;
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .vm-ip {
+    padding-left: 20px;
+    flex-grow: 1; /* Distribute remaining space */
+  }
+  
+  .vm-labels {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
